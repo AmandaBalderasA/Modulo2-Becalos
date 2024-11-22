@@ -1,16 +1,24 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body{
-    background-color: rgb(232, 194, 147);
-    display: flex;
-    flex-wrap: wrap;
+    background-color: #caf0f8;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h1{
-    color: white;
+    color: black;
 }
 
 main{
@@ -27,12 +35,18 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 8px;
+    margin: 10px;
+    padding: 12px;
+    border: 3px solid black;
     transition: all 0.4s ease-in-out;
 }
 
+.tittle-card{
+    margin-bottom: 10px;
+}
+
 .card:hover{
-    background-color: rgb(229, 152, 59);
+    background-color: #d0b5f3;
     transform: scale(1.05);
     transform: rotate(2deg);
 }
@@ -42,7 +56,8 @@ main{
 }
 
 .card img{
-    width: 100%;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 5%;
 }
@@ -52,9 +67,9 @@ main{
 }
 
 #pastorAleman{
-    color: rgb(131, 53, 53);
+    color: #473f71;
 }
 
 h2{
-    color: rgb(131, 53, 53);
+    color: #473f71;
 }
