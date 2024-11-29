@@ -1,0 +1,95 @@
+.osito{
+    width: 100px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabeza{
+    width: 80px;
+    height: 80px;
+    background-color: brown;
+    border-radius: 50%;
+    position: relative;
+}
+
+.oreja {
+    width: 20px;
+    height: 30px;
+    background-color: brown;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+}
+
+.izquierda{
+    left: 10px;
+}
+
+.derecha{
+    right: 10px;
+}
+
+.ojo{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+}
+
+.izquierdo{
+    left: 15px;
+}
+
+.derecho{
+    right: 15px;
+}
+
+.nariz{
+    width: 15px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    right: 30px;
+}
+
+.boca{
+    width: 25px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: 26px;
+}
+
+.cuerpo{
+    width: 80px;
+    height: 120px;
+    background-color: brown;
+    border-radius: 50%;
+    position: absolute;
+    top: 110px;
+}
+
+.brazo{
+    width: 20px;
+    height: 40px;
+    background-color: brown;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+}
+
+.izquierdoB{
+    left: 0px;
+}
+
+.derechoB{
+    right: 0px;
+}
